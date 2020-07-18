@@ -8,3 +8,4 @@ export { default as SearchBar } from './SearchBar';
 export { default as TopNavbar } from './TopNavbar';
 export { default as MainBanner } from './MainBanner';
 export { default as SingleCategory } from './SingleCategory';
+export { default as Portfolios } from './Portfolios';

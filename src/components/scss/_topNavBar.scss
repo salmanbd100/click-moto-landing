@@ -13,5 +13,14 @@
         color: $text-color;
       }
     }
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+  }
+  .mobile-menu {
+    display: none;
+    @include media-breakpoint-down(sm) {
+      display: block;
+    }
   }
 }

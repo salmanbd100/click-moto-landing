@@ -38,6 +38,9 @@ const TopNavbar = () => {
           <Button primary>Join Free</Button>
         </li>
       </ul>
+      <div className='mobile-menu'>
+        <Button primary>Menu</Button>
+      </div>
     </div>
   );
 };

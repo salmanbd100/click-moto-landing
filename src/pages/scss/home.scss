@@ -1,5 +1,8 @@
 .product-area {
   margin-top: -70px;
+  @include media-breakpoint-down(sm) {
+    margin-top: 20px;
+  }
   .product-wrapper {
     background: $white;
     position: relative;
@@ -8,6 +11,9 @@
     .top-categories {
       display: flex;
       margin: 0 -10px;
+      @include media-breakpoint-down(sm) {
+        display: block;
+      }
     }
   }
   .top-category-title {
