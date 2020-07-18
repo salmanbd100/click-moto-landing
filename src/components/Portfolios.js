@@ -78,35 +78,6 @@ const Portfolios = () => {
             </li>
           </ul>
         </form>
-        {/* <form action='' onChange={handleCategoryChange}>
-          <div className='radio-label'>
-            Male
-            <input
-              className='radio'
-              type='radio'
-              name='gender'
-              value='male'
-            />{' '}
-          </div>
-          <div className='radio-label'>
-            Male
-            <input
-              className='radio'
-              type='radio'
-              name='gender'
-              value='male'
-            />{' '}
-          </div>
-          <div className='radio-label'>
-            Male
-            <input
-              className='radio'
-              type='radio'
-              name='gender'
-              value='male'
-            />{' '}
-          </div>
-        </form> */}
         <div className='select-filter'>
           <select onChange={handleFilterChange}>
             <option value='photos'>Most Photo</option>
