@@ -1,0 +1,16 @@
+//Reset Css
+@import 'reset.scss';
+//Variables
+@import 'variables.scss';
+
+//Common Css
+@import 'common.scss';
+
+//Bootstrap mixin for responsive
+@import 'bootstrap/scss/responsive-breakpoints';
+
+//Components module
+@import '../../components/scss/components.scss';
+
+//Pages
+@import '../../pages/scss/home.scss';

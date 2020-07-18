@@ -1,0 +1,17 @@
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  .navbar {
+    display: flex;
+    align-items: center;
+    .nav-item {
+      margin: 0 10px;
+      .nav-link {
+        text-decoration: none;
+        color: $text-color;
+      }
+    }
+  }
+}

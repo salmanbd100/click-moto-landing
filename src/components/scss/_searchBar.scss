@@ -1,0 +1,25 @@
+.search-bar {
+  margin-bottom: 15px;
+  width: 100%;
+  position: relative;
+  .search-input {
+    border-radius: 18px;
+    color: $text-color;
+    line-height: 36px;
+    background: $white;
+    border: none;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .search-submit {
+    border-radius: 18px;
+    color: $text-color;
+    line-height: 34px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background: $white;
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,19 @@
+.product-area {
+  margin-top: -70px;
+  .product-wrapper {
+    background: $white;
+    position: relative;
+    z-index: 3;
+    padding: 20px;
+    .top-categories {
+      display: flex;
+      margin: 0 -10px;
+    }
+  }
+  .top-category-title {
+    color: $title-color;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+}
